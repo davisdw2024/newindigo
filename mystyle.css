@@ -1,0 +1,48 @@
+    body {
+            font-family: Megrim, sans-serif;
+            text-align: center;
+            background-color: rgb(70, 86, 180); /* Sets background to shade of Indigo */
+            color: white;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            float: left; /* position of logo */
+            margin: 10px;
+        }
+        .topnav {
+            display: flex;
+            justify-content: center;
+            background-color: #080808; /* Navigation background color */
+            padding: 10px 0;
+        }
+        .topnav a {
+            display: block; /*I used https://www.w3schools.com/howto/howto_js_topnav.asp to help me properly implement my navigation */
+            color: white; /* Font color for nav text*/
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a.active {
+            background-color: #4CAF50; /* Sets active hightlight cover */
+        }
+        main {
+            max-width: 800px; 
+            margin: 20px auto;
+            text-align: center; /* Used to keep the text centered */
+        }
+        .content-wrapper {
+            display: flex; /* To make flex image and content side by side */
+            justify-content: center; /* This is to center content in the container */
+            align-items: center; /* This is to align*/
+        }
+        .content-wrapper p {
+            margin: 20px;
+            line-height: 1.6;
+            text-align: left; /* This is to read from left to right */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #050000; /* This sets footer color to black */
+        }
